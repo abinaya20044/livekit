@@ -1,0 +1,78 @@
+{
+  "name": "livekit-meet",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@datadog/browser-logs": "^5.10.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@livekit/components-react": "2.3.2",
+    "@livekit/components-styles": "1.0.12",
+    "@livekit/krisp-noise-filter": "^0.2.0",
+    "@mui/icons-material": "^5.15.20",
+    "@mui/material": "^5.15.20",
+    "@types/axios": "0.14.0",
+    "@types/react-canvas-draw": "^1.2.3",
+    "@types/react-color": "^3.0.12",
+    "axios": "0.21.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.31.2",
+    "express": "^4.19.2",
+    "fabric": "^5.3.0",
+    "firebase": "^10.12.2",
+    "livekit-client": "2.2.0",
+    "livekit-server-sdk": "2.4.0",
+    "lodash": "^4.17.21",
+    "next": "14.2.2",
+    "next-auth": "5.0.0-beta.19",
+    "next-seo": "^6.0.0",
+    "pg": "^8.12.0",
+    "react": "18.2.0",
+    "react-canvas-draw": "^1.2.1",
+    "react-color": "^2.19.3",
+    "react-dom": "18.2.0",
+    "react-icons": "^5.2.1",
+    "react-whiteboard": "^1.0.0",
+    "tinykeys": "^2.1.0",
+    "ws": "^8.17.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "20.14.1",
+    "@types/pg": "^8.11.6",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@types/ws": "^8.5.10",
+    "autoprefixer": "^10.4.19",
+    "eslint": "9.4.0",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8.4.38",
+    "source-map-loader": "^5.0.0",
+    "tailwindcss": "^3.4.4",
+    "typescript": "5.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "pnpm": {
+    "overrides": {}
+  },
+  "description": "<a href=\"https://livekit.io/\">\r   <img src=\"./.github/assets/livekit-mark.png\" alt=\"LiveKit logo\" width=\"100\" height=\"100\">\r </a>",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

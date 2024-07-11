@@ -1,7 +1,7 @@
 import type { GetServerSideProps, InferGetServerSidePropsType } from 'next';
 import { useRouter } from 'next/router';
 import React, { ReactElement, useState } from 'react';
-import { encodePassphrase, generateRoomId, randomString } from '../lib/client-utils';
+import { encodePassphrase, generateRoomId, randomString } from '../lib/client-utils'  ;
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 
